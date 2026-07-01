@@ -1,0 +1,13 @@
+[project]
+name = "python-iw-ssim"
+version = "0.0.1"
+description = "Python implementation of the IW-SSIM image fidelity metric"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "netpbmfile>=2026.1.29",
+    "numpy>=2.5.0",
+    "pillow>=12.2.0",
+    "pyrtools>=1.0.10",
+    "torch>=2.12.1",
+]
